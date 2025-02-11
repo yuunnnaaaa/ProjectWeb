@@ -79,7 +79,7 @@ function registrasi($data) {
     
 
     // tambahkan user baru ke database
-    mysqli_query($conn, "INSERT INTO user VALUES('', '$username', '$password')");
+    mysqli_query($conn, "INSERT INTO user VALUES('', '$username', '$password', '', '')");
 
 
     return mysqli_affected_rows($conn);
