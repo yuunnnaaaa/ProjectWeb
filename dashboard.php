@@ -1,0 +1,2 @@
+nama penyakit
+nasehat dokter
