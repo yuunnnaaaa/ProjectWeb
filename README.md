@@ -4,7 +4,7 @@
 $host = "localhost";
 $username = "root";
 $password = "";
-$dbname = "web_sekolah";
+$dbname = "project";
 
 $conn = new mysqli($host, $username, $password, $dbname);
 
